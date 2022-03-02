@@ -1,0 +1,18 @@
+patch:
+  'menu/page_size': 5
+  switcher/hotkeys:
+    - F2
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: clear
+    Shift_L: commit_code
+    Shift_R: inline_ascii
+    Control_L: noop
+    Control_R: noop
+    Escape: commit_code
+  # 使用输法
+  schema_list:
+    - schema: luna_pinyin
+    - schema: luna_pinyin_simp
+    - schema: luna_pinyin_fluency
+    - schema: double_pinyin_flypy

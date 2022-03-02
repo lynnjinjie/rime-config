@@ -1,0 +1,5 @@
+patch:
+  show_notifications_via_notification_center: true
+  app_options/Visual Studio Code.app:
+    ascii_mode: true
+    vim_mode: true
