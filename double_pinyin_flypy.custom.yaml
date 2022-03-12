@@ -1,0 +1,8 @@
+path:
+  engine/translators:
+    - punct_translator
+    - script_translator
+    - table_translator@custom_phrase
+  #扩充明月词库
+  “translator/dictionary": luna_pinyin.extended
+  # ”translator/preedit_format“: {}
